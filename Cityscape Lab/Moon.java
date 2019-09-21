@@ -3,14 +3,14 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 /**
- * Write a description of class Moon here.
+ * Moon object
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Stephen Fan
+ * @version
  */
 public class Moon
 {
-    // instance variables - replace the example below with your own
+    // instance variables
     private int radius;
     
     private int x1;
@@ -34,8 +34,7 @@ public class Moon
     }
     
     /**
-     * An example of a method - replace this comment with your own
-     *
+     * draw method
      * @param  g2 the Graphics2D object to draw to
      * @post draws a moon or a sun depending on the user input
      */
