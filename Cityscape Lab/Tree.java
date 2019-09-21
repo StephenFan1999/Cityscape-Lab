@@ -4,14 +4,14 @@ import java.awt.Rectangle;
 import java.awt.Color;
 
 /**
- * Write a description of class Tree here.
+ * Tree class
  * 
  * @author Stephen Fan
  * @version 10/12
  */
 public class Tree
 {
-    /** description of instance variable x (add comment for each instance variable) */
+    /** instance variables*/
     private int width1;
     private int height1;
     private int x1;
@@ -43,6 +43,7 @@ public class Tree
     }
 
     /**
+     * draw method
      * @post    draws a tree
      * @param    g2 the Graphics2D object to draw to
      */
