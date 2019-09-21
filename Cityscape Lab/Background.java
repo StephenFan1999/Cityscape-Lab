@@ -2,14 +2,12 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.Color;
 /**
- * Write a description of class Background here.
- * 
  * @author Stephen Fan
- * @version (a version number or a date)
+ * @version
  */
 public class Background
 {
-    // instance variables - replace the example below with your own
+    // instance variables
     private int width, height;
     private Color color;
     /**
@@ -25,8 +23,7 @@ public class Background
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     * 
+     * draw method
      * @param g2 the Graphics2D object draws to
      */
     public void draw(Graphics2D g2)
