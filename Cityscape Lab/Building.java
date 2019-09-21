@@ -3,14 +3,12 @@ import java.awt.Rectangle;
 import java.awt.Color;
 
 /**
- * Write a description of class Cityscape here.
- * 
  * @author Stephen Fan
  * @version 10/6/2015
  */
 public class Building
 {
-    /** description of instance variable x (add comment for each instance variable) */
+    /** instance variables*/
     private int width;
     private int height;
     private int x;
@@ -33,14 +31,12 @@ public class Building
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
+     * draw method
      * @post    draws a building
      * @param    g2 the Graphics2D object to draw to
      */
     public void draw(Graphics2D g2)
     {
-        // put your code here
         Rectangle building = new Rectangle(x,y,width,height);
         
         g2.setColor(Color.BLACK);
