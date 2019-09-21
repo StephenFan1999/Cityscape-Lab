@@ -3,14 +3,14 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 
 /**
- * Write a description of class UFO here.
+ * UFO Class
  * 
  * @author Stephen Fan
  * @version 10/12
  */
 public class UFO
 {
-    /** description of instance variable x (add comment for each instance variable) */
+    /** instance variables*/
     private int cradius;
     private int ewidth;
     private int eheight;
@@ -39,15 +39,13 @@ public class UFO
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
-     *
+     * draw method
      * @post    draws a UFO
      * @param    g2 the Graphics2D object to draw to
      */
     public void draw(Graphics2D g2)
     {
-        // put your code here
+        // draw UFO
         Ellipse2D.Double window = new Ellipse2D.Double(x1,y1,cradius,cradius);
         Ellipse2D.Double body = new Ellipse2D.Double(x2,y2,ewidth,eheight);
         
