@@ -43,9 +43,6 @@ public class Tree
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
-     *    
      * @post    draws a tree
      * @param    g2 the Graphics2D object to draw to
      */
